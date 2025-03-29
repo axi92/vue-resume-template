@@ -1,84 +1,74 @@
 {
-    "name": "Jonas Einstein",
-    "profilePictureUrl": "images/pictures/avatar.png",
+  "name": "PhDr. Radomíra Kunová",
+  "profilePictureUrl": "images/pictures/profile.jpg",
+  "cap_logo": "images/pictures/cap_logo.png",
+  "cap_href": "https://czap.cz/Sys/PublicProfile/60372917",
+  "locales": {
+      "en": {
+          "credits": "Designed by <strong>Ryan Balieiro</strong>",
+          "role": "Psychologist and Psychotherapist"
+      },
+      "cz": {
+          "credits": "Hecho por <strong>Ryan Balieiro</strong>",
+          "role": "Psycholožka a psychoterapeutka"
+      }
+  },
 
-    "locales": {
-        "en": {
-            "credits": "Designed by <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "UX Designer"
-        },
+  "contact": {
+      "address": {
+          "id": "address",
+          "value": "Červinkova 1, 612 00 Brno - Královo Pole",
+          "valueShort": "Červinkova 1, 612 00 Brno - Královo Pole",
+          "faIcon": "fa-solid fa-city",
+          "href": "https://www.google.com/maps/place/%C4%8Cervinkova+2472%2F1,+612+00+Brno-Kr%C3%A1lovo+Pole/@49.2254147,16.5823119,17z/data=!3m1!4b1!4m6!3m5!1s0x4712940421a58205:0xef0e04775851e4bd!8m2!3d49.2254112!4d16.5848868!16s%2Fg%2F11c2gc6mk2?entry=ttu&g_ep=EgoyMDI1MDMyNS4xIKXMDSoASAFQAw%3D%3D"
+      },
 
-        "es": {
-            "credits": "Hecho por <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer de UX"
-        },
+      "email": {
+          "id": "email",
+          "value": "kunova@psychologie-kunova.cz",
+          "valueShort": "kunova@psychologie-kunova.cz",
+          "faIcon": "fa-solid fa-envelope",
+          "href": "mailto:kunova@psychologie-kunova.cz"
+      },
 
-        "fr": {
-            "credits": "Conçu par <strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "Designer UX"
-        },
+      "facebook": {
+          "id": "facebook",
+          "value": "Jonas Einstein",
+          "valueShort": "J. Einstein",
+          "faIcon": "fa-brands fa-facebook",
+          "href": "https://facebook.com"
+      },
 
-        "zh": {
-            "credits": "设计：<strong><a class='light' href='https://github.com/ryanbalieiro'>Ryan Balieiro</a></strong>",
-            "role": "用户体验设计师"
-        }
-    },
+      "github": {
+          "id": "github",
+          "value": "@jonas.einstein.official",
+          "valueShort": "@jonas.einstein.official",
+          "faIcon": "fa-brands fa-github",
+          "href": "https://github.com"
+      },
 
-    "contact": {
-        "address": {
-            "id": "address",
-            "value": "123 Main Street, Cupertino, CA 01234",
-            "valueShort": "Cupertino, CA 01234",
-            "faIcon": "fa-solid fa-city",
-            "href": null
-        },
+      "instagram": {
+          "id": "instagram",
+          "value": "@jonas.einstein.official",
+          "valueShort": "@jonas.einstein.official",
+          "faIcon": "fa-brands fa-instagram",
+          "href": "https://instagram.com"
+      },
 
-        "email": {
-            "id": "email",
-            "value": "jonas.einstein@genius.com",
-            "valueShort": "jonas.einstein@genius.com",
-            "faIcon": "fa-solid fa-envelope",
-            "href": "mailto:jonas.einstein@genius.com"
-        },
+      "linkedin": {
+          "id": "linkedin",
+          "value": "@jonas.einstein.official",
+          "valueShort": "@jonas.einstein.official",
+          "faIcon": "fa-brands fa-linkedin",
+          "href": "https://linkedin.com"
+      },
 
-        "facebook": {
-            "id": "facebook",
-            "value": "Jonas Einstein",
-            "valueShort": "J. Einstein",
-            "faIcon": "fa-brands fa-facebook",
-            "href": "https://facebook.com"
-        },
-
-        "github": {
-            "id": "github",
-            "value": "@jonas.einstein.official",
-            "valueShort": "@jonas.einstein.official",
-            "faIcon": "fa-brands fa-github",
-            "href": "https://github.com"
-        },
-
-        "instagram": {
-            "id": "instagram",
-            "value": "@jonas.einstein.official",
-            "valueShort": "@jonas.einstein.official",
-            "faIcon": "fa-brands fa-instagram",
-            "href": "https://instagram.com"
-        },
-
-        "linkedin": {
-            "id": "linkedin",
-            "value": "@jonas.einstein.official",
-            "valueShort": "@jonas.einstein.official",
-            "faIcon": "fa-brands fa-linkedin",
-            "href": "https://linkedin.com"
-        },
-
-        "phone": {
-            "id": "phone",
-            "value": "+1 (123) 456-7890",
-            "valueShort": "(123) 456-7890",
-            "faIcon": "fa-solid fa-phone",
-            "href": "tel:1234567890"
-        }
-    }
+      "phone": {
+          "id": "phone",
+          "value": "+420 601 327 037",
+          "valueShort": "+420 601 327 037",
+          "faIcon": "fa-solid fa-phone",
+          "href": "tel:+420601327037"
+      }
+  }
 }

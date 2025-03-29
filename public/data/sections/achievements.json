@@ -5,19 +5,9 @@
             "description": "My journey as a UX designer has been marked by unwavering dedication to learning and skill enhancement, along with enthusiastic participation in design events. As a result, I have collected a list of notable awards and certifications:"
         },
 
-        "es": {
+        "cz": {
             "title": "Logros <span class='text-primary'>Profesionales</span>",
             "description": "Mi trayectoria como diseñador de UX ha estado marcada por una dedicación inquebrantable al aprendizaje y mejora de habilidades, junto con una participación entusiasta en eventos de diseño. Como resultado, he recopilado una lista de premios y certificaciones notables:"
-        },
-
-        "fr": {
-            "title": "Réalisations <span class='text-primary'>Professionnelles</span>",
-            "description": "Mon parcours en tant que concepteur UX a été marqué par une dédication inébranlable à l'apprentissage et à l'amélioration des compétences, ainsi que par une participation enthousiaste à des événements de conception. En conséquence, j'ai dressé une liste de récompenses et de certifications remarquables:"
-        },
-
-        "zh": {
-            "title": "职业<span class='text-primary'>成就</span>",
-            "description": "作为一名UX设计师，我的旅程充满了对学习和技能提升的坚定执着，以及对设计活动的热情参与。因此，我汇总了一份显著奖项和认证的列表："
         }
     },
 
@@ -27,9 +17,7 @@
             "faIcon": "fa-solid fa-trophy",
             "locales": {
                 "en": {"title": "Awards", "buttonLabel": "More Info"},
-                "es": {"title": "Premios", "buttonLabel": "Más Información"},
-                "fr": {"title": "Prix", "buttonLabel": "Plus d'Infos"},
-                "zh": {"title": "奖项", "buttonLabel": "了解更多"}
+                "cz": {"title": "Premios", "buttonLabel": "Más Información"}
             }
         },
 
@@ -38,9 +26,7 @@
             "faIcon": "fa-solid fa-award",
             "locales": {
                 "en": {"title": "Certifications", "buttonLabel": "View Certification"},
-                "es": {"title": "Certificaciones", "buttonLabel": "Ver Certificación"},
-                "fr": {"title": "Certifications", "buttonLabel": "Voir la Certification"},
-                "zh": {"title": "获得的证书", "buttonLabel": "查看证书"}
+                "cz": {"title": "Certificaciones", "buttonLabel": "Ver Certificación"}
             }
         }
     ],
@@ -57,20 +43,9 @@
                         "title": "Best Graduation Project",
                         "description": "Outstanding work on graduation project; recognized for innovation and impact."
                     },
-
-                    "es": {
+                    "cz": {
                         "title": "Mejor Proyecto de Graduación",
                         "description": "Trabajo destacado en proyecto de graduación; reconocido por innovación e impacto."
-                    },
-
-                    "fr": {
-                        "title": "Meilleur Projet de Fin d'Études",
-                        "description": "Travail exceptionnel sur le projet de fin d'études; reconnu pour l'innovation et l'impact."
-                    },
-
-                    "zh": {
-                        "title": "最佳毕业项目",
-                        "description": "在毕业项目上的杰出工作；因创新和影响力受到认可。"
                     }
                 }
             },
@@ -82,23 +57,13 @@
                 "href": "https://harvard.com",
                 "locales": {
                     "en": {
-                        "title": "2nd Place – Alumni UX Hackathon",
+                        "title": "2nd Place - Alumni UX Hackathon",
                         "description": "Secured 2nd place in Harvard's Alumni UX hackathon; demonstrated creative problem-solving."
                     },
 
-                    "es": {
+                    "cz": {
                         "title": "2do Lugar - Hackathon Alumni de UX",
                         "description": "Obtuvo el 2do lugar en el Hackathon Alumni de UX de Harvard; demostró solución creativa de problemas."
-                    },
-
-                    "fr": {
-                        "title": "2e Place - Hackathon UX des Anciens",
-                        "description": "Obtenu la 2e place au hackathon UX des anciens de Harvard; démontré la résolution créative de problèmes."
-                    },
-
-                    "zh": {
-                        "title": "第二名 - 校友UX黑客马拉松",
-                        "description": "在哈佛校友UX黑客马拉松中获得第二名；展示了创造性问题解决能力。"
                     }
                 }
             },

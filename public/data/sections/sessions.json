@@ -1,0 +1,25 @@
+{
+  "id": "sessions",
+  "locales": {
+    "en": {
+      "title": "How <span class='text-primary'>sessions</span> work",
+      "paragraph": [
+        "The first session is usually scheduled either by phone or email. Since the services are not covered by health insurance but paid directly, you have the option to remain completely anonymous. Some health insurance providers offer contributions for therapy as part of mental health care. For more details and current conditions, please contact your health insurance company.",
+        "During the initial session, we discuss together what a satisfactory outcome of our meetings would be and whether my approach suits your needs.",
+        "The scope and frequency of consultations typically depend on the issue being addressed and, naturally, your satisfaction. You can pause or end the collaboration at any time.",
+        "For child clients, parental consent is always required. Depending on the nature of the issue, I provide feedback from individual sessions to parents. However, child clients also have full rights to confidentiality with their therapist, which I fully respect. The specific form of work is agreed upon with both children and parents during the first session.",
+        "In my practice, I prioritize an individualized approach to each client and their specific concerns. I respect each client's personality, whether adult or child, aiming to create a safe and discreet space for discussing sensitive topics, various troubles, and challenges. Together, we can explore suitable solutions, new coping strategies, different perspectives, or personal support mechanisms. I am here to support you during times of life’s losses and help you accept circumstances that cannot be changed."
+      ]
+    },
+    "cz": {
+      "title": "Jak probíhá <span class='text-primary'>sezení</span>",
+      "paragraph": [
+        "Na termínu prvního setkání se obvykle domlouváme buď telefonicky nebo prostřednictvím e-mailu. Vzhledem k tomu, že služby nejsou financovány zdravotní pojišťovnou, ale hradí se přímou platbou, máte právo vystupovat i zcela anonymně. Některé zdravotní pojišťovny poskytují příspěvky na terapii v rámci péče o duševní zdraví. Pro bližší informace a aktuální podmínky se prosím obraťte na svoji zdravotní pojišťovnu.",
+        "Na prvním sezení se společné domlouváme, co by mělo být uspokojivým výsledkem našeho setkávání a zda vám styl mé práce bude vyhovovat. ",
+        "Rozsah i frekvence konzultací se zpravidla odvíjí od řešeného tématu a samozřejmě od vaší spokojenosti. Můžete spolupráci kdykoli přerušit nebo ukončit. ",
+        "Pokud se jedná o dětského klienta, je vždy nutný souhlas zákonného zástupce. Podle charakteru problematiky dávám zpětnou vazbu z jednotlivých setkání také rodičům, avšak i dětský klient má plné právo využívat povinné mlčenlivosti svého terapeuta, které vždy respektuji. Na konkrétní formě práce se vždy s dětmi i rodiči domlouváme na prvním setkání.",
+        "Ve své práci považuji za samozřejmost individuální přístup ke každému klientovi a jeho problematice, se kterou přichází. Respektuji osobnost každého klienta, a to jak dospělého, tak dětského a mým cílem je vytvořit bezpečný a diskrétní prostor pro otevření citlivých témat, nejrůznějších trápení a potíží. Společně pak můžeme hledat vhodná řešení, nové možnosti zvládání a jiné úhly pohledu či vlastní podpůrné mechanismy. Jsem připravena Vás podpořit a provázet v období životních ztrát a pomoci přijmout okolnosti, které není již možné měnit."
+      ]
+    }
+  }
+}

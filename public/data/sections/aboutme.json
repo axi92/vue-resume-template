@@ -1,0 +1,52 @@
+{
+  "id": "aboutme",
+  "locales": {
+    "en": {
+      "title": "About <span class='text-primary'>me</span>",
+      "paragraph": [
+        "I completed a master's degree in single-subject psychology at the Faculty of Arts, Masaryk University in Brno. Subsequently, I passed the rigorous examination in the field of psychology.",
+        "I undertook internships at counseling centers (pedagogical-psychological counseling center, family counseling center). Additionally, I trained at psychiatric hospitals in Brno and Kroměříž, focusing primarily on diagnostics and work with addictions.",
+        "During my psychological practice, I regularly participate in professional supervisions.",
+        "I gained psychological practice mainly through work at a rehabilitation facility for people addicted to alcohol and at the non-state medical facility ViaFit as a psychologist and professional guarantor of the psychological counseling center.",
+        "Valuable experience working with children and youth comes from my time at schools, where I previously worked as an English teacher and later as a school psychologist.",
+        "I worked at the Crisis Center for Children and Youth SPONDEA, where I dealt extensively with the issues of abused and neglected children, acute crisis situations, and long-term psychological trauma.",
+        "I also worked within social activation services with entire families.",
+        "Since 2012, I have been operating a private practice where I primarily work with adult clients.",
+        "I have completed a five-year accredited psychotherapeutic training in Logotherapy and Existential Analysis. Additionally, I obtained certification for an accredited one-year training in \"Solution-Oriented Approach in Counseling and Therapy.\"",
+        "I attended a hypnotherapy course and hold certification and authorization to perform hypnosis.",
+        "Currently, I am undergoing training in trauma work using the \"Somatic Experiencing\" method, which meets international American and European standards and will culminate in an EASE certificate.",
+        "I am a member of the Czech Association for Psychotherapy."
+      ]
+    },
+    "cz": {
+      "title": "O <span class='text-primary'>mně</span>",
+      "paragraph": [
+        "Absolvovala jsem magisterské studium jednooborové psychologie na Filozofické fakultě Masarykovy univerzity v Brně. Následně jsem složila rigorózní zkoušku v oboru psychologie.",
+        "Absolvovala jsem stáže v poradenských pracovištích (pedagogicko-psychologická poradna, rodinná poradna). Dále pak v psychiatrických léčebnách v Brně a v Kroměříži, které byly zaměřeny zejména na diagnostiku a práci se závislostmi.",
+        "Pravidelně se během své psychologické praxe účastním odborných supervizí.",
+        "Psychologickou praxi jsem získala zejména při práci v doléčovacím zařízení pro osoby závislé na alkoholu a v nestátním zdravotnickém zařízení ViaFit jako psycholog a odborný garant psychologické poradny.",
+        "Cenné zkušenosti s prací s dětmi a mládeží mám ze svého působení na školách, kde jsem v minulosti pracovala jako učitelka anglického jazyka a později jako školní psycholožka.",
+        "Pracovala jsem v Krizovém centru pro děti a mládež SPONDEA, kde jsem se z velké části zabývala problematikou týraných a zneužívaných dětí, řešením akutních krizových situací i dlouhodobých psychických traumat.",
+        "Pracovala jsem v rámci sociálně aktivizační služby s celými rodinami.",
+        "Od roku 2012 provozuji soukromou praxi, ve které pracuji převážně s dospělou klientelou.",
+        "Mám ukončený pětiletý akreditovaný psychoterapeutický výcvik v Logoterapii a existenciální analýze. Také jsem získala osvědčení odborného akreditovaného ročního výcviku \"Na řešení orientovaného přístupu v poradenství a terapii\".",
+        "Absolvovala jsem hypnoterapeutický kurz a mám osvědčení a oprávnění vykonávat hypnózu.",
+        "Aktuálně absolvuji výcvik pro práci s traumatem v metodě „Somatic experiencing\", který splňuje mezinárodní americké a evropské standardy a bude zakončen EASE certifikátem.",
+        "Jsem členkou České asociace pro psychoterapii."
+      ]
+    }
+  },
+  "items": {
+    "socialCircles": [
+      "@link{profile.contact.instagram}",
+      "@link{profile.contact.facebook}",
+      "@link{profile.contact.linkedin}",
+      "@link{profile.contact.github}"
+    ],
+    "contactListItems": [
+      "@link{profile.contact.address}",
+      "@link{profile.contact.email}",
+      "@link{profile.contact.phone}"
+    ]
+  }
+}

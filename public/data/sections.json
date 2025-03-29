@@ -1,90 +1,111 @@
 {
-    "categories": [
-        {
-            "id": "home",
-            "faIcon": "fa-solid fa-home"
-        },
-
-        {
-            "id": "background",
-            "faIcon": "fa-solid fa-clock"
-        },
-
-        {
-            "id": "showcase",
-            "faIcon": "fa-solid fa-images"
-        },
-
-        {
-            "id": "more",
-            "faIcon": "fa-solid fa-plus"
-        }
-    ],
-
-    "sections": [
-        {
-            "id": "about",
-            "categoryId": "home",
-            "component": "CoverSection",
-            "jsonPath": "data/sections/cover.json",
-            "faIcon": "fa-solid fa-address-card",
-            "cover": true
-        },
-
-        {
-            "id": "education",
-            "categoryId": "background",
-            "component": "TimelineSection",
-            "jsonPath": "data/sections/education.json",
-            "faIcon": "fa-solid fa-graduation-cap"
-        },
-
-        {
-            "id": "skills",
-            "categoryId": "showcase",
-            "component": "InfoSection",
-            "jsonPath": "data/sections/skills.json",
-            "faIcon": "fa-solid fa-tools"
-        },
-
-        {
-            "id": "experience",
-            "categoryId": "background",
-            "component": "TimelineSection",
-            "jsonPath": "data/sections/experience.json",
-            "faIcon": "fa-solid fa-briefcase"
-        },
-
-        {
-            "id": "portfolio",
-            "categoryId": "showcase",
-            "component": "GallerySection",
-            "jsonPath": "data/sections/portfolio.json",
-            "faIcon": "fa-solid fa-folder-open"
-        },
-
-        {
-            "id": "achievements",
-            "categoryId": "showcase",
-            "component": "ThreadsSection",
-            "jsonPath": "data/sections/achievements.json",
-            "faIcon": "fa-solid fa-award"
-        },
-
-        {
-            "id": "hobbies",
-            "categoryId": "more",
-            "component": "InfoSection",
-            "jsonPath": "data/sections/hobbies.json",
-            "faIcon": "fa-solid fa-heart"
-        },
-
-        {
-            "id": "contact",
-            "categoryId": "more",
-            "component": "ContactSection",
-            "jsonPath": "data/sections/contact.json",
-            "faIcon": "fa-solid fa-pen-to-square"
-        }
-    ]
+  "categories": [
+    {
+      "id": "home",
+      "faIcon": "fa-solid fa-home"
+    },
+    {
+      "id": "about",
+      "faIcon": "fa-solid fa-clock"
+    },
+    {
+      "id": "services",
+      "faIcon": "fa-solid fa-hand-holding"
+    },
+    {
+      "id": "info",
+      "faIcon": "fa-solid fa-images"
+    },
+    {
+      "id": "contact_reviews",
+      "faIcon": "fa-solid fa-plus"
+    }
+  ],
+  "sections": [
+    {
+      "id": "home",
+      "categoryId": "home",
+      "component": "CoverSection",
+      "jsonPath": "data/sections/cover.json",
+      "faIcon": "fa-solid fa-home",
+      "cover": true
+    },
+    {
+      "id": "aboutme",
+      "categoryId": "about",
+      "component": "TextSection",
+      "jsonPath": "data/sections/aboutme.json",
+      "faIcon": "fa-solid fa-address-card"
+    },
+    {
+      "id": "services",
+      "categoryId": "services",
+      "component": "TextSection",
+      "jsonPath": "data/sections/services.json",
+      "faIcon": "fa-regular fa-circle"
+    },
+    {
+      "id": "sessions",
+      "categoryId": "services",
+      "component": "TextSection",
+      "jsonPath": "data/sections/sessions.json",
+      "faIcon": "fa-regular fa-circle"
+    },
+    {
+      "id": "price",
+      "categoryId": "services",
+      "component": "TextSection",
+      "jsonPath": "data/sections/price.json",
+      "faIcon": "fa-regular fa-circle"
+    },
+    {
+      "id": "education",
+      "categoryId": "services",
+      "component": "TimelineSection",
+      "jsonPath": "data/sections/education.json",
+      "faIcon": "fa-regular fa-circle"
+    },
+    {
+      "id": "skills",
+      "categoryId": "services",
+      "component": "InfoSection",
+      "jsonPath": "data/sections/skills.json",
+      "faIcon": "fa-solid fa-tools"
+    },
+    {
+      "id": "experience",
+      "categoryId": "services",
+      "component": "TimelineSection",
+      "jsonPath": "data/sections/experience.json",
+      "faIcon": "fa-solid fa-briefcase"
+    },
+    {
+      "id": "portfolio",
+      "categoryId": "services",
+      "component": "GallerySection",
+      "jsonPath": "data/sections/portfolio.json",
+      "faIcon": "fa-solid fa-folder-open"
+    },
+    {
+      "id": "achievements",
+      "categoryId": "info",
+      "component": "ThreadsSection",
+      "jsonPath": "data/sections/achievements.json",
+      "faIcon": "fa-solid fa-award"
+    },
+    {
+      "id": "hobbies",
+      "categoryId": "contact_reviews",
+      "component": "InfoSection",
+      "jsonPath": "data/sections/hobbies.json",
+      "faIcon": "fa-solid fa-heart"
+    },
+    {
+      "id": "contact",
+      "categoryId": "contact_reviews",
+      "component": "ContactSection",
+      "jsonPath": "data/sections/contact.json",
+      "faIcon": "fa-solid fa-pen-to-square"
+    }
+  ]
 }

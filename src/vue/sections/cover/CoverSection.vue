@@ -10,8 +10,10 @@
         <InlineList class="info-list" :items="props.sectionData.content['items']['contactListItems']"/>
 
         <!-- Description -->
-        <p class="cover-description lead text-normal mb-4 mb-md-5"
+        <p class="cover-description lead text-normal fst-italic"
            v-html="props.sectionData.content['locales']['bio']"/>
+        <p class=" text-normal mb-4 mb-md-5"
+           v-html="props.sectionData.content['locales']['author']"/>
 
         <!-- Social Links -->
         <SocialLinks :items="props.sectionData.content['items']['socialCircles']"/>

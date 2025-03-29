@@ -1,0 +1,53 @@
+{
+  "id": "services",
+  "locales": {
+    "en": {
+      "title": "Services",
+      "title_provide": "I provide:",
+      "provide": [
+        "Psychological counseling",
+        "Psychotherapy, including logotherapy and existential analysis",
+        "Crisis intervention",
+        "Hypnosis",
+        "Trauma work using \"Somatic Experiencing\""
+      ],
+      "title_specializations": "I specialize in:",
+      "specialize": [
+        "Communication problems within the family",
+        "Intergenerational conflicts in the family",
+        "Issues in social and partner relationships",
+        "Divorce and post-divorce stressful situations",
+        "Existential questions and the search for meaning in life",
+        "Feelings of loneliness and emptiness",
+        "Problems caused by anxiety and stress",
+        "Coping with and support during crisis periods",
+        "Trauma processing",
+        "And more"
+      ]
+    },
+    "cz": {
+      "title": "Co nabízím ",
+      "title_provide": "Poskytuji:",
+      "provide": [
+        "Psychologické poradenství",
+        "Psychoterapii - logoterapii a existenciální analýzu",
+        "Krizovou intervenci",
+        "Hypnózu",
+        "Práci s traumatem podle \"Somatic experiencing\""
+      ],
+      "title_specializations": "Věnuji se:",
+      "specialize": [
+        "Komunikačním problémům v rodině",
+        "Mezigeneračním neshodám v rodině",
+        "Problémům ve společenských a partnerských vztazích",
+        "Rozvodovým a porozvodovým zátěžovým situacím",
+        "Existenciálním otázkám a hledání smyslu života",
+        "Pocitům osamělosti a prázdnoty",
+        "Problémům vyvolaným úzkostí a stresem",
+        "Zvládáním a provázením během krizových období",
+        "Zpracování traumatu",
+        "a dalším"
+      ]
+    }
+  }
+}

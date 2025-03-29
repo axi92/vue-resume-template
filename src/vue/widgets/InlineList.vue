@@ -3,7 +3,7 @@
         <!-- List Item -->
         <div class="list-item" v-for="item in props.items">
             <!-- List item is a link... -->
-            <a v-if="_getItemUrl(item)" :href="_getItemUrl(item)" class="info-item-link">
+            <a v-if="_getItemUrl(item)" :href="_getItemUrl(item)" class="info-item-link" target="_blank">
                 <i v-if="_getItemFaIcon(item)" :class="_getItemFaIcon(item)" class="list-item-icon"/>
                 {{_getItemLabel(item)}}
             </a>

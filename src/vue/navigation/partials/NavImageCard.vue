@@ -2,15 +2,10 @@
     <!-- Profile Card -->
     <div class="nav-profile-card" :class="shrink ? 'nav-profile-card-shrink' : ''">
         <!-- Avatar -->
-        <ImageView :src="props.profileData['profilePictureUrl']"
-                   :alt="props.profileData['name']"
-                   class="img-pfp"/>
-
-        <!-- Name -->
-        <h4 class="nav-profile-card-title lead-2">{{ props.profileData['name'] }}</h4>
-
-        <!-- Role -->
-        <h6 class="nav-profile-card-subtitle text-4 mb-1">{{ props.profileData['locales']['role'] }}</h6>
+         <a :href="props.profileData['cap_href']" target="_blank">
+           <ImageView :src="props.profileData['cap_logo']"
+                      class="img-pfp"/>
+         </a>
     </div>
 </template>
 
@@ -22,8 +17,6 @@ const navigation = useNavigation()
 
 /**
  * @property {Object} profileData
- * @property {String} name
- * @property {String} role
  */
 const props = defineProps({
     profileData: Object,
@@ -52,7 +45,7 @@ const props = defineProps({
 
 .img-pfp {
     --max-height:clamp(130px, 22.5vh, 170px);
-    --border-width:6px;
+    --border-width:opx;
 
     @include media-breakpoint-down(lg) {
         --max-height:140px;
@@ -70,18 +63,6 @@ const props = defineProps({
 
     border: var(--border-width) solid adjust-color(lighten($nav-background-color, 32%), $alpha:-0.85);
     border-radius: 50%;
-}
-
-.nav-profile-card-title {
-    margin-top:1rem;
-    // text-transform: uppercase;
-    letter-spacing: 0.1px;
-    color: $white;
-}
-
-.nav-profile-card-subtitle {
-    font-family: $custom-subheadings-font-family;
-    color: $light-5;
 }
 
 .nav-profile-card-shrink {
