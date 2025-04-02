@@ -1,232 +1,58 @@
 {
   "id": "price",
   "price": {
-    "child": "900 Kč",
-    "adult": "1200 Kč",
-    "couple": "1800 Kč"
+    "child": "900",
+    "adult": "1200",
+    "couple": "1800"
   },
   "locales": {
     "en": {
       "title": "Pricing",
       "disclamer": "My services are not covered by public health insurance.",
       "sessionLength": "Psychotherapeutic or counseling consultations last approximately 50 minutes.",
-      "oneSession": "The price for one session:",
       "insuranceProviderInfo": "Clients of VZP, ČPZP, ZPMVČR, RBP, ZPŠ may be able to receive contributions for therapy from their insurance providers. For more detailed information and current conditions, please contact your health insurance company.",
       "reservations": "Scheduled appointments are binding. Reservations can be canceled or rescheduled no later than 48 hours in advance.",
       "cancellation": "Later cancellations incur a cancellation fee of 500 CZK. If canceled less than 24 hours before the scheduled appointment, the cancellation fee is equal to the cost of the consultation.",
-      "child": "Children under 15 years old, students in full-time study:",
-      "adult": "Adults:",
-      "couple": "Couple counseling (90 minutes):"
+      "child": {
+        "title": "Children",
+        "text": "Children up to 15 years old, full-time students",
+        "sessionLength": "One session about 50 minutes"
+      },
+      "adult": {
+        "title": "Adults",
+        "text": "Children over 15 years old, adults and students of non-full-time programs",
+        "sessionLength": "One session about 50 minutes"
+      },
+      "couple": {
+        "title": "Couples Counseling",
+        "text": "",
+        "sessionLength": "One session about 90 minutes"
+      },
+      "currency": "CZK"
     },
     "cz": {
       "title": "Ceník",
       "disclamer": "Služby nejsou hrazeny zdravotními pojišťovnami.",
       "sessionLength": "Psychoterapeutická nebo poradenská konzultace trvá cca 50 minut.",
-      "oneSession": "The price for one session:",
       "insuranceProviderInfo": "Klienti VZP, ČPZP, ZPMVČR, RBP, ZPŠ mají možnost získat od svých pojišťoven příspěvky na terapii. Pro bližší informace a aktuální podmínky se prosím obraťte na svoji zdravotní pojišťovnu.",
       "reservations": "Domluvené termíny jsou závazné. Rezervaci je možné zrušit nebo přeobjednat nejpozději 48 hodin předem.",
       "cancellation": "Později je účtován storno poplatek ve výši 500 Kč. Méně než 24 hodin před smluveným termínem je pak storno poplatek ve výši ceny konzultace.",
-      "child": "děti do 15 let, studenti prezenčního studia:",
-      "adult": "dospělí:",
-      "couple": "párové poradenství (90 minut):"
+      "child": {
+        "title": "Děti",
+        "text": "Děti do 15 let, studenti prezenčního studia",
+        "sessionLength": "Jedna konzultace cca 50 minut"
+      },
+      "adult": {
+        "title": "Dospělí",
+        "text": "Děti nad 15 let, dospělí a studenti dálkového studia",
+        "sessionLength": "Jedna konzultace cca 50 minut"
+      },
+      "couple": {
+        "title": "Párové poradenství",
+        "text": "",
+        "sessionLength": "Jedna konzultace cca 90 minut"
+      },
+      "currency": "Kč"
     }
-  },
-  "subcategories": [
-    {
-      "id": "activities",
-      "type": "pie",
-      "progress": "number",
-      "faIcon": "fa-solid fa-clock",
-      "locales": {
-        "en": {
-          "title": null
-        }
-      }
-    },
-    {
-      "id": "interests",
-      "type": "list",
-      "progress": null,
-      "faIcon": "fa fa-book-open-reader",
-      "locales": {
-        "en": {
-          "title": "Interests"
-        },
-        "es": {
-          "title": "Intereses"
-        },
-        "fr": {
-          "title": "Centres d'intérêt"
-        },
-        "zh": {
-          "title": "兴趣"
-        }
-      }
-    }
-  ],
-  "items": {
-    "activities": [
-      {
-        "imageIconUrl": null,
-        "faIcon": "fas fa-users",
-        "value": 15,
-        "locales": {
-          "en": {
-            "title": "Family & Friends",
-            "description": "Time spent with cherished loved ones."
-          },
-          "es": {
-            "title": "Familia y amigos",
-            "description": "Tiempo con seres queridos apreciados."
-          },
-          "fr": {
-            "title": "Famille et amis",
-            "description": "Temps passé avec des proches chéris."
-          },
-          "zh": {
-            "title": "家人和朋友",
-            "description": "与珍爱的亲人共度时光，创造终身难忘的回忆。"
-          }
-        }
-      },
-      {
-        "imageIconUrl": null,
-        "faIcon": "fas fa-tasks",
-        "value": 26,
-        "locales": {
-          "en": {
-            "title": "My Projects",
-            "description": "Pursuing my creative endeavors."
-          },
-          "es": {
-            "title": "Mis Proyectos",
-            "description": "Persiguiendo mis proyectos creativos."
-          },
-          "fr": {
-            "title": "Mes Projets",
-            "description": "Poursuivre mes projets créatifs."
-          },
-          "zh": {
-            "title": "个人项目",
-            "description": "追求创意事业，将想法变成现实。"
-          }
-        }
-      },
-      {
-        "imageIconUrl": null,
-        "faIcon": "fas fa-couch",
-        "value": 11,
-        "locales": {
-          "en": {
-            "title": "Relaxing",
-            "description": "Indulging in tranquility, unwinding the stresses of life."
-          },
-          "es": {
-            "title": "Relajación",
-            "description": "Disfrutando de la tranquilidad, deshaciendo el estrés de la vida."
-          },
-          "fr": {
-            "title": "Détente",
-            "description": "S'adonner à la tranquillité, dénouer les tensions de la vie."
-          },
-          "zh": {
-            "title": "放松",
-            "description": "沉浸在宁静中，舒缓生活的压力。"
-          }
-        }
-      },
-      {
-        "imageIconUrl": null,
-        "faIcon": "fas fa-book",
-        "value": 9,
-        "locales": {
-          "en": {
-            "title": "Studying",
-            "description": "Embarking on a continuous journey of learning."
-          },
-          "es": {
-            "title": "Estudio",
-            "description": "Embarcando en un viaje continuo de aprendizaje."
-          },
-          "fr": {
-            "title": "Études",
-            "description": "Entamer un voyage continu d'apprentissage."
-          },
-          "zh": {
-            "title": "学习",
-            "description": "踏上持续的学习和自我提升之旅。"
-          }
-        }
-      },
-      {
-        "imageIconUrl": null,
-        "faIcon": "fas fa-dumbbell",
-        "value": 17,
-        "locales": {
-          "en": {
-            "title": "Exercise",
-            "description": "Dedicating time to physical well-being."
-          },
-          "es": {
-            "title": "Ejercicio",
-            "description": "Dedicando tiempo al bienestar físico."
-          },
-          "fr": {
-            "title": "Exercice",
-            "description": "Consacrer du temps au bien-être physique."
-          },
-          "zh": {
-            "title": "锻炼",
-            "description": "致力于身体健康，培养健康的生活方式。"
-          }
-        }
-      },
-      {
-        "imageIconUrl": null,
-        "faIcon": "fas fa-utensils",
-        "value": 19,
-        "locales": {
-          "en": {
-            "title": "Cooking",
-            "description": "Creating culinary masterpieces."
-          },
-          "es": {
-            "title": "Cocina",
-            "description": "Creando obras maestras culinarias."
-          },
-          "fr": {
-            "title": "Cuisine",
-            "description": "Créer des chefs-d'œuvre culinaires."
-          },
-          "zh": {
-            "title": "烹饪",
-            "description": "创造烹饪杰作，在每道菜肴中注入风味。"
-          }
-        }
-      },
-      {
-        "imageIconUrl": null,
-        "faIcon": "fas fa-map",
-        "value": 4,
-        "locales": {
-          "en": {
-            "title": "Exploring",
-            "description": "Venturing into new realms, seeking the thrill of uncharted discoveries."
-          },
-          "es": {
-            "title": "Exploración",
-            "description": "Adentrándome en nuevos mundos, buscando la emoción de descubrimientos inexplorados."
-          },
-          "fr": {
-            "title": "Exploration",
-            "description": "S'aventurer dans de nouveaux domaines, rechercher le frisson de découvertes inexplorées."
-          },
-          "zh": {
-            "title": "探索",
-            "description": "涉足新领域，寻求未知发现的刺激。"
-          }
-        }
-      }
-    ]
   }
 }

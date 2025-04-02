@@ -51,14 +51,13 @@
 
     <!-- Price -->
     <span v-if="sectionData.content['id'] == 'price'">
-      <!-- <CircleIcon color="blue"></CircleIcon> -->
-      <InfoItem 
-        description-with-progress-bar="false" 
-        highlighted-header="false" 
-        icon-color-style="customColor"
-        small-description="true"
-        ></InfoItem>
-
+      <Card :locales="props.sectionData.content['locales']" :price="props.sectionData.content['price']"></Card>
+      <p class="fs-6">
+        {{ sectionData.content['locales'].disclamer }}
+        {{ sectionData.content['locales'].insuranceProviderInfo }}
+        {{ sectionData.content['locales'].reservations }}
+        {{ sectionData.content['locales'].cancellation }}
+      </p>
     </span>
 
   </SectionTemplate>
@@ -69,24 +68,10 @@ import SectionTemplate from "../_templates/SectionTemplate.vue"
 import { computed } from "vue"
 import { useData } from "../../../composables/data.js"
 import { useNavigation } from "../../../composables/navigation.js"
-import InfoItem from "../info/partials/InfoItem.vue"
-import CircleIcon from "../../widgets/CircleIcon.vue"
-import InfoSection from "../info/InfoSection.vue"
-// import InlineList from "../../widgets/InlineList.vue"
+import Card from "../../widgets/Card.vue"
 
 const data = useData()
 const navigation = useNavigation()
-
-const test = {
-  "id": "interests",
-  "type": "list",
-  "progress": null,
-  "faIcon": "fa fa-book-open-reader",
-  "locales": {
-    "en": { "title": "EN Title" },
-    "cz": { "title": "CZ Title" }
-  }
-}
 
 /**
  * @property {Object} sectionData
