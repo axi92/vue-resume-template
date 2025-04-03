@@ -121,7 +121,7 @@ li.nav-item {
     justify-content: left;
     align-items: center;
 
-    padding: 0 2.7rem 0 2.7rem;
+    padding: 0 0.5rem 0 2.0rem;
     width: 100%;
     min-height: clamp(2rem, calc(100vh/41)*2, 2.7rem);
 
