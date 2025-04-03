@@ -1,0 +1,53 @@
+{
+  "id": "hypnosis",
+  "locales": {
+    "en": {
+      "title": "Hypnosis",
+      "paragraph": [
+        "Hypnosis is a specific mental state of our mind that can be used as a means for healing. Hypnosis should only be performed by an authorized therapist (usually a psychologist, psychiatrist, or another trained medical professional).",
+        "A client in a hypnotic state is much more receptive to suggestions received from the therapist, which serve to facilitate positive change in addressing the issues they face. Hypnosis helps in finding and utilizing one's own internal resources necessary for inducing desired changes. The ability of each person to enter an altered state of consciousness provides one of the options for solving problems that seem almost insurmountable in a waking state.",
+        "Hypnosis is not a miraculous method that resolves all problems on its own. Successful therapy requires primarily the client's openness to cooperation and their active approach.",
+        "Hypnosis can help in addressing a wide range of problems for both adults and children:"
+      ],
+      "problems": [
+        "Fears and nervousness",
+        "Stress",
+        "Insomnia",
+        "Headaches, migraines",
+        "Low self-esteem",
+        "Sexual difficulties",
+        "Weight reduction",
+        "Addictions",
+        "Enuresis",
+        "Nail biting",
+        "Stage fright",
+        "Lack of self-control",
+        "And others"
+      ]
+    },
+    "cz": {
+      "title": "Hypnóza",
+      "paragraph": [
+        "Hypnóza je určitý psychický stav naší mysli, který je možné využít jako prostředek k léčení. Hypnózu by měl provádět pouze oprávněný terapeut (zpravidla psycholog, psychiatr nebo jiný vyškolený lékař).",
+        "Klient v hypnotickém stavu je mnohem vnímavější k sugescím, které dostává od terapeuta a které slouží k pozitivnímu posunu při řešení potíží se kterými přichází. Hypnóza napomáhá nalézání a využití vlastních vnitřních zdrojů nezbytných pro navození žádoucích změn. Schopnost každého člověka ponořit se do změněného stavu vědomí umožňuje právě jednu z možností, jak řešit své potíže, které nám za bdělého stavu připadají občas téměř neřešitelné.",
+        "Hypnóza není zázračnou metodou, která sama o sobě vyřeší všechny problémy. K úspěšné terapii je třeba především otevřenosti klienta ke spolupráci a jeho aktivního přístupu.",
+        "Hypnóza může pomáhat při řešení celé řady problémů jak dospělých, tak i dětí:"
+      ],
+      "problems": [
+        "strachy a nervozita",
+        "stres",
+        "nespavost",
+        "bolesti hlavy, migrény",
+        "nedostatečné sebevědomí",
+        "sexuální obtíže",
+        "snižování hmotnosti",
+        "závislosti",
+        "enurézy",
+        "kousání nehtů",
+        "tréma",
+        "nedostatek sebeovládání",
+        "a další"
+      ]
+    }
+  }
+}

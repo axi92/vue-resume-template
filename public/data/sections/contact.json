@@ -1,22 +1,21 @@
 {
-    "locales": {
-        "en": {
-            "title": "<span class='text-primary'>Contact</span> Me",
-            "description": "Please don't hesitate to get in touch with me whenever you feel the need!",
-            "subtitle": "Or...",
-            "subtitleDescription": "If you prefer, you can reach out to me through the following options:"
-        },
-        "cz": {
-            "title": "<span class='text-primary'>Contáctame</span>",
-            "description": "¡Por favor, no dudes en ponerte en contacto conmigo siempre que lo necesites!",
-            "subtitle": "O...",
-            "subtitleDescription": "Si prefieres, puedes ponerte en contacto conmigo a través de las siguientes opciones:"
-        }
+  "locales": {
+    "en": {
+      "title": "<span class='text-primary'>Contact</span> Me",
+      "description": "Please don't hesitate to get in touch with me whenever you feel the need!",
+      "subtitle": "Or...",
+      "subtitleDescription": "If you prefer, you can reach out to me through the following options:"
     },
-
-    "items": [
-        "@link{profile.contact.address}",
-        "@link{profile.contact.phone}",
-        "@link{profile.contact.email}"
-    ]
+    "cz": {
+      "title": "<span class='text-primary'>Kontakt</span>",
+      "description": "",
+      "subtitle": "Or...",
+      "subtitleDescription": "Si prefieres, puedes ponerte en contacto conmigo a través de las siguientes opciones:"
+    }
+  },
+  "items": [
+    "@link{profile.contact.address}",
+    "@link{profile.contact.phone}",
+    "@link{profile.contact.email}"
+  ]
 }

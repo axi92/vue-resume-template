@@ -1,0 +1,31 @@
+{
+  "id": "logotherapy",
+  "locales": {
+    "en": {
+      "title": "Logotherapy and Existential Analysis ",
+      "paragraph": [
+        "Logotherapy is one of the psychotherapeutic directions. Don't be fooled by the name, it has nothing to do with speech therapy. Its name can be derived from the word logos, which means meaning. And it is precisely the meaning of human life and its values that is one of the central themes of this concept.",
+        "Logotherapy is a psychotherapeutic treatment method based on the Viennese psychiatrist V.E.Frankl. It focuses on the meaning of human existence and its search.",
+        "At the heart of existential analysis is the interpretation of human existence as an attempt to answer the question of the meaning of man's life. It is based on the fact that a person does not ask the question, but on the contrary, life itself asks questions. A person can be responsible for taking responsibility for one’s life. One takes responsibility exclusively by his active and concrete actions in the world, because his responsibility always applies to the present other person or the current situation. From this particular acceptance and fulfillment of responsibility in one’s own life implies his being in the world.",
+        "The role of existential analysis is to bring a person to where he is based on his own conscious responsibility to the most proper roles and finds no longer an anonymous, but on the contrary, the unique meaning of his life. /Frankl, 1979/",
+        "Existential analysis focuses on the dignity of man, awareness of responsibility and the meaning of suffering.",
+        "Logotherapy and existential analysis seeks to strengthen the ability to love, work and endure suffering in a person.",
+        "The basic idea of Logotherapy is that if the desire for meaning is not fulfilled, it leads from frustration to an existential vacuum. Man begins to doubt the meaning of his existence, the meaning of life in general. (This phenomenon is close to the so-called Sunday neurosis - during the time off, the feeling of existential emptiness strikes with full force, it is not dampened by routine work at work.) If this frustration develops further, it can lead to depression, neurosis or even suicide.",
+        "Logotherapy then helps a person to find a way out of his existential frustration. It uses the survey and support of the personal value ladder. He considers freedom and responsibility to conscience to be the basic attributes of human life."
+      ]
+    },
+    "cz": {
+      "title": "Logoterapie a existenciální analýza ",
+      "paragraph": [
+        "Logoterapie je jedním z psychoterapeutických směrů. Nenechte se zmást názvem, s logopedií nemá nic společného. Její název lze odvodit ze slova logos, což znamená smysl. A právě smysl lidského života a jeho hodnoty patří mezi ústřední téma tohoto pojetí.",
+        "Logoterapie je psychoterapeutická léčebná metoda založená vídeňským psychiatrem V.E.Franklem. Soustřeďuje se na smysl lidské existence a jeho hledání.",
+        "Jádrem existenciální analýzy je výklad lidské existence jako pokusu na odpovídání na otázku po smyslu žití člověka. Vychází z toho, že otázku neklade člověk, ale naopak život sám klade otázky. Člověk může odpovídat tím, že za svůj život přijímá odpovědnost. Svou odpovědnost člověk uskutečňuje výhradně svým aktivním a konkrétním počínáním ve světě, protože jeho zodpovědnost platí vždy vůči přítomnému druhému člověku nebo aktuální situaci. Z tohoto konkrétního přebírání a naplňování zodpovědnosti ve vlastním životě vyplývá jeho bytí ve světě.",
+        "Úlohou existenciální analýzy je přivést člověka tam, kde se ze své vlastní uvědomělé zodpovědnosti prodírá k nejvlastnějším úlohám a nachází už ne anonymní, ale právě naopak jedinečný smysl svého života. /Frankl, 1979/",
+        "Existenciální analýza se soustřeďuje na důstojnost člověka, vědomí zodpovědnosti a smysl utrpení.",
+        "Logoterapie a existenciální analýza usiluje o to, aby v člověku posílila schopnost milovat, pracovat a snášet utrpení.",
+        "Základní myšlenkou Logoterapie je, že pokud není touha po smyslu naplněna, vede to od frustrace až k existenciálnímu vakuu. Člověk začíná pochybovat o smyslu své existence, o smyslu života vůbec. (Tomuto fenoménu je blízká tzv. nedělní neuróza - během volna zasahuje pocit existenciální prázdnoty plnou silou, není tlumen rutinní prací v zaměstnání.) Pokud se tato frustrace dále rozvíjí, může to vést až k depresi, neuróze nebo dokonce sebevraždě.",
+        "Logoterapie pak pomáhá člověku najít východisko z jeho existenciální frustrace. Využívá k tomu průzkumu a podpory osobního hodnotového žebříčku. Za základní atributy lidského života považuje svobodu a odpovědnost vůči svědomí."
+      ]
+    }
+  }
+}

@@ -60,6 +60,32 @@
       </p>
     </span>
 
+    <!-- Psychological Counseling -->
+    <span v-if="sectionData.content['id'] == 'counselling'">
+      <p v-if="sectionData.content['locales']['paragraph']" class="fs-5"
+        v-for="(paragraph, index) in sectionData.content['locales']['paragraph']" :key="index">
+        {{ paragraph }}
+      </p>
+    </span>
+
+    <!-- Hypnosis -->
+    <span v-if="sectionData.content['id'] == 'hypnosis'">
+      <p v-if="sectionData.content['locales']['paragraph']" class="fs-5"
+        v-for="(paragraph, index) in sectionData.content['locales']['paragraph']" :key="index">
+        {{ paragraph }}
+      </p>
+    </span>
+    <li class="fs-5" v-for="(item, index) in sectionData.content['locales']['problems']" :key="index">{{ item }}
+    </li>
+
+    <!-- Logotherapy and Existential Analysis  -->
+    <span v-if="sectionData.content['id'] == 'logotherapy'">
+      <p v-if="sectionData.content['locales']['paragraph']" class="fs-5"
+        v-for="(paragraph, index) in sectionData.content['locales']['paragraph']" :key="index">
+        {{ paragraph }}
+      </p>
+    </span>
+
   </SectionTemplate>
 </template>
 

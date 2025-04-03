@@ -1,0 +1,21 @@
+{
+  "id": "counselling",
+  "locales": {
+    "en": {
+      "title": "Psychological Counseling",
+      "paragraph": [
+        "Psychological counseling is primarily intended to help you understand your problem, feelings, attitudes, and thoughts, and it is usually a short-term service. The psychologist acts as an expert who helps the client gain insight into the situation, supports the development of their own competencies, and self-supporting mechanisms. They serve as a guide, provide feedback, and assist in gathering enough information to help the client understand themselves, the problem, and facilitate decision-making on how to proceed with the situation.",
+        "Psychological counseling can be used to address relationship, personality, work, or school-related issues, as well as during life crises when you feel the need for support or simply want to better understand your situation.",
+        "It is possible that during a counseling session, topics may emerge that you would like to explore more deeply. For this, psychotherapy is more suitable, as it is a longer-term process but can lead to significant and lasting personal changes."
+      ]
+    },
+    "cz": {
+      "title": "Psychologické poradenství",
+      "paragraph": [
+        "Psychologické poradenství by mělo sloužit především pro zorientování se v problému, v pocitech, postojích, v myšlenkách a zpravidla se jedná o krátkodobou službu. Psycholog zde vystupuje jako odborník, který pomáhá klientovi získat nad danou situací náhled, podporuje rozvíjení jeho vlastních kompetencí a sebepodpůrných mechanismů. Je především průvodcem, poskytuje zpětnou vazbu a pomáhá nalézat dostatek informací, které povedou klienta k porozumění sobě, problému a usnadní tak jeho rozhodování, jak dále se situací naložit.",
+        "Psychologické poradenství je možné využít při řešení vztahových, osobnostních, pracovních nebo školních problémů, ale i v období životních krizí, kdy cítíte, že potřebujete podporu nebo se jen chcete lépe zorientovat ve své situaci.",
+        "Je možné, že během poradenského setkání se odkryjí témata, kterým se budete chtít věnovat hlouběji. K tomu je pak vhodná psychoterapie, která je dlouhodobějšího charakteru, ale může přinést již výrazné a trvalé osobnostní změny."
+      ]
+    }
+  }
+}

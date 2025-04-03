@@ -59,46 +59,25 @@
       "faIcon": "fa-regular fa-circle"
     },
     {
-      "id": "education",
+      "id": "counselling",
       "categoryId": "services",
-      "component": "TimelineSection",
-      "jsonPath": "data/sections/education.json",
+      "component": "TextSection",
+      "jsonPath": "data/sections/counselling.json",
       "faIcon": "fa-regular fa-circle"
     },
     {
-      "id": "skills",
+      "id": "hypnosis",
       "categoryId": "services",
-      "component": "InfoSection",
-      "jsonPath": "data/sections/skills.json",
-      "faIcon": "fa-solid fa-tools"
+      "component": "TextSection",
+      "jsonPath": "data/sections/hypnosis.json",
+      "faIcon": "fa-regular fa-circle"
     },
     {
-      "id": "experience",
+      "id": "logotherapy",
       "categoryId": "services",
-      "component": "TimelineSection",
-      "jsonPath": "data/sections/experience.json",
-      "faIcon": "fa-solid fa-briefcase"
-    },
-    {
-      "id": "portfolio",
-      "categoryId": "services",
-      "component": "GallerySection",
-      "jsonPath": "data/sections/portfolio.json",
-      "faIcon": "fa-solid fa-folder-open"
-    },
-    {
-      "id": "achievements",
-      "categoryId": "info",
-      "component": "ThreadsSection",
-      "jsonPath": "data/sections/achievements.json",
-      "faIcon": "fa-solid fa-award"
-    },
-    {
-      "id": "hobbies",
-      "categoryId": "contact_reviews",
-      "component": "InfoSection",
-      "jsonPath": "data/sections/hobbies.json",
-      "faIcon": "fa-solid fa-heart"
+      "component": "TextSection",
+      "jsonPath": "data/sections/logotherapy.json",
+      "faIcon": "fa-regular fa-circle"
     },
     {
       "id": "contact",
