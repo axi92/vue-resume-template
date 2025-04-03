@@ -14,11 +14,11 @@
     },
     {
       "id": "info",
-      "faIcon": "fa-solid fa-images"
+      "faIcon": "fa-solid fa-list-check"
     },
     {
       "id": "contact_reviews",
-      "faIcon": "fa-solid fa-plus"
+      "faIcon": "fa-solid fa-envelope"
     }
   ],
   "sections": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "aboutme",
-      "categoryId": "about",
+      "categoryId": "home",
       "component": "TextSection",
       "jsonPath": "data/sections/aboutme.json",
       "faIcon": "fa-solid fa-address-card"
@@ -60,21 +60,21 @@
     },
     {
       "id": "counselling",
-      "categoryId": "services",
+      "categoryId": "info",
       "component": "TextSection",
       "jsonPath": "data/sections/counselling.json",
       "faIcon": "fa-regular fa-circle"
     },
     {
       "id": "hypnosis",
-      "categoryId": "services",
+      "categoryId": "info",
       "component": "TextSection",
       "jsonPath": "data/sections/hypnosis.json",
       "faIcon": "fa-regular fa-circle"
     },
     {
       "id": "logotherapy",
-      "categoryId": "services",
+      "categoryId": "info",
       "component": "TextSection",
       "jsonPath": "data/sections/logotherapy.json",
       "faIcon": "fa-regular fa-circle"

@@ -12,6 +12,9 @@
 
         <!-- Description -->
         <p v-if="props.description" class="section-subheading-description lead text-muted">{{props.description}}</p>
+
+        <!-- Navication Description -->
+        <div v-if="props.navigationDescription" v-for="(desc, index) in props.navigationDescription" class="lead text-muted fs-6">{{ desc }}</div>
     </div>
 </template>
 
@@ -20,11 +23,13 @@
  * @property {String} title
  * @property {String} [description]
  * @property {String} [faIcon]
+ * @property Array[String] [navigationDescription]
  */
 const props = defineProps({
     title: String,
     description: String,
-    faIcon: String
+    faIcon: String,
+    navigationDescription: Array[String],
 })
 </script>
 

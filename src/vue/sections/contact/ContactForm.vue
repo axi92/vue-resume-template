@@ -1,7 +1,5 @@
 <template>
-  <form id="contact-form" action="https://api.web3forms.com/submit" method="POST">
-    <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
-    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+  <form id="contact-form">
     <div class="row contact-form-row align-items-stretch">
       <!-- Feedback Alert -->
       <div class="col-12 mb-1" v-if="alertStatus">
@@ -13,30 +11,31 @@
         <!-- Name Input -->
         <div class="form-group input-group">
           <span class="input-group-text input-group-attach"><i class="fa fa-signature" /></span>
-          <input class="form-control" id="form-name" type="text" v-model="name" :placeholder="data.getString('name') + ' *'"
-            required />
+          <input class="form-control" id="form-name" type="text" v-model="name"
+            :placeholder="data.getString('name') + ' *'" required />
         </div>
 
         <!-- E-mail Address Input -->
         <div class="form-group input-group">
           <span class="input-group-text input-group-attach"><i class="fa fa-envelope" /></span>
-          <input class="form-control" id="form-email" type="email" v-model="email" :placeholder="data.getString('email') + ' *'"
-            required />
+          <input class="form-control" id="form-email" type="email" v-model="email"
+            :placeholder="data.getString('email') + ' *'" required />
         </div>
 
         <!-- Subject Input -->
-        <div class="form-group input-group">
+        <!-- <div class="form-group input-group">
           <span class="input-group-text input-group-attach"><i class="fa fa-pen-to-square" /></span>
-          <input class="form-control" id="form-subject" type="text" v-model="subject" :placeholder="data.getString('subject') + ' *'"
-            required />
-        </div>
+          <input class="form-control" id="form-subject" type="text" v-model="subject"
+            :placeholder="data.getString('subject') + ' *'" required />
+        </div> -->
       </div>
 
       <!-- Right Column -->
       <div class="col-xl-6">
         <!-- Message TextArea -->
         <div class="form-group form-group-textarea mb-md-0">
-          <textarea class="form-control" id="form-message" v-model="message" :placeholder="data.getString('message')" required />
+          <textarea class="form-control" id="form-message" v-model="message" :placeholder="data.getString('message')"
+            required />
         </div>
       </div>
 
@@ -51,7 +50,7 @@
   </form>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useData } from "../../../composables/data.js"
 import { useLayout } from "../../../composables/layout.js"
 import { computed, onMounted, ref } from "vue"
@@ -61,6 +60,10 @@ import Alert from "../../widgets/Alert.vue"
 const data = useData()
 const layout = useLayout()
 const navigation = useNavigation()
+const WEB3FORMS_ACCESS_KEY = "321d1380-d09b-468c-a898-a0ab1bdef7a8";
+const name = ref("")
+const email = ref("")
+const message = ref("")
 
 /**
  * @enum
@@ -74,19 +77,14 @@ const SubmitStatus = {
 
 /**
  * @const
- * @type {string[]}
+ * @type {Ref[]}
  */
-const FORM_FIELDS = ['name', 'email', 'subject', 'message']
+const FORM_FIELDS: Ref[] = [name, email, message]
 
 /**
  * @type {ref.<SubmitStatus>}
  */
-const submitStatus = ref(null)
-
-/**
- * @type {number}
- */
-let submitAttempts = 0
+const submitStatus: ref<SubmitStatus> = ref(null)
 
 /**
  * @private
@@ -107,8 +105,10 @@ onMounted(() => {
  */
 const _clearAllFields = () => {
   FORM_FIELDS.forEach(field => {
-    const elField = document.getElementById(`form-${field}`)
-    elField.value = ''
+    field.value = '';
+    // const elField = document.getElementById(`form-${field}`)
+    // console.log('clear field:', elField);
+    // elField.value = ''
   })
 }
 
@@ -117,17 +117,17 @@ const _clearAllFields = () => {
  * @return {boolean}
  * @private
  */
-const _onSubmit = (e) => {
+const _onSubmit = (e): boolean => {
   if (e.preventDefault) {
     e.preventDefault()
   }
 
   const values = {}
 
-  FORM_FIELDS.forEach(field => {
-    const elField = document.getElementById(`form-${field}`)
-    values[field] = elField.value
-  })
+  // FORM_FIELDS.forEach(field => {
+  //   const elField = document.getElementById(`form-${field}`)
+  //   values[field] = elField.value
+  // })
 
   submitStatus.value = SubmitStatus.SENDING
 
@@ -135,27 +135,19 @@ const _onSubmit = (e) => {
   return false
 }
 
-/**
- * @private
- */
-const _sendMessage = () => {
-  const feedbackView = layout.getFeedbackView()
-  feedbackView.showActivitySpinner(data.getString("sendingMessage") + "...")
-  submitAttempts++
+interface mailResponse {
+  data: {
+    email: string
+    message: string
+    name: string
+  }
+  message: "string"
+  success: boolean
+}
 
-  /** The message sending logic goes here... **/
-  setTimeout(() => {
-    if (submitAttempts % 2 !== 0) {
-      _onMessageSent()
-    }
-    else {
-      _onMessageError()
-    }
-  }, 1000);
-
-  const WEB3FORMS_ACCESS_KEY = "YOUR_ACCESS_KEY_HERE";
-
-  function submitForm() {
+async function _submitForm(): Promise<mailResponse> {
+  return new Promise(async (resolve, reject) => {
+    console.log('in submit form');
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
@@ -164,18 +156,32 @@ const _sendMessage = () => {
       },
       body: JSON.stringify({
         access_key: WEB3FORMS_ACCESS_KEY,
-        name: this.name,
-        email: this.email,
-        message: this.message,
+        name: name.value,
+        email: email.value,
+        message: message.value,
       }),
     });
     const result = await response.json();
     if (result.success) {
-      console.log(result);
+      _onMessageSent();
+      resolve(result as mailResponse);
+    } else {
+      _onMessageError()
+      reject(result as mailResponse);
     }
-  }
+  })
+}
 
-  /** ************************************** **/
+/**
+ * @private
+ */
+const _sendMessage = async () => {
+  const feedbackView = layout.getFeedbackView()
+  feedbackView.showActivitySpinner(data.getString("sendingMessage") + "...")
+
+  // _onMessageError()
+  // _clearAllFields()
+  await _submitForm();
 }
 
 
