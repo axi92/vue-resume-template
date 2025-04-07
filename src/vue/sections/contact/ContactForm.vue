@@ -40,11 +40,12 @@
       </div>
 
       <!-- Bottom Column -->
-      <div class="col-12 text-center mt-3 mt-lg-4">
+      <div class="col-12 text-center mt-3 mt-lg-4 d-flex justify-content-center align-items-center gap-3 flex-wrap">
         <button class="btn btn-primary btn-xl" type="submit" id="btn-submit-message"
           :class="{ disabled: submitStatus === SubmitStatus.SENDING }">
           <i class="fa fa-envelope me-1" /> {{ data.getString('sendMessage') }}
         </button>
+        <Captcha></Captcha>
       </div>
     </div>
   </form>
@@ -56,6 +57,7 @@ import { useLayout } from "../../../composables/layout.js"
 import { computed, onMounted, ref } from "vue"
 import { useNavigation } from "../../../composables/navigation.js"
 import Alert from "../../widgets/Alert.vue"
+import Captcha from "../../widgets/Captcha.vue"
 
 const data = useData()
 const layout = useLayout()
@@ -295,5 +297,22 @@ textarea {
 
   font-family: $headings-font-family;
   color: $light-5;
+}
+
+.col-12.text-center.mt-3.mt-lg-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; // Adjust the spacing as needed
+  flex-wrap: wrap; // Allow wrapping on smaller screens
+}
+
+@media (max-width: 576px) {
+
+  // Breakpoint for smaller screens
+  .col-12.text-center.mt-3.mt-lg-4 {
+    flex-direction: column; // Stack items vertically
+    gap: 0.5rem; // Reduce spacing for smaller screens
+  }
 }
 </style>
