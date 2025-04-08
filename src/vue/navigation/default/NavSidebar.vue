@@ -131,7 +131,7 @@ li.nav-item {
 
         font-family: $headings-font-family;
         text-transform: uppercase;
-        text-align: center;
+        text-align: left;
 
         color: $light-1;
 
