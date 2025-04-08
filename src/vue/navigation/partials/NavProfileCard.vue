@@ -36,7 +36,7 @@ const props = defineProps({
 
 .nav-profile-card {
     @include generate-dynamic-styles-with-hash((
-        xxxl: (padding: 1.5rem),
+        xxxl: (padding: 1rem),
         lg: (padding: 2rem),
         md: (padding: 1.5rem)
     ));
