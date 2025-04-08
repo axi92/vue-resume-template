@@ -3,13 +3,13 @@
     {
       "name": "Česky",
       "id": "cz",
-      "flagUrl": "images/flags/cz.png"
+      "flagUrl": "images/flags/cz.png",
+      "default": true
     },
     {
       "name": "English",
       "id": "en",
-      "flagUrl": "images/flags/en.png",
-      "default": true
+      "flagUrl": "images/flags/en.png"
     }
   ],
   "preloaderEnabled": false,
