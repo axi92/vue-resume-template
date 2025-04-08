@@ -41,11 +41,12 @@
 
       <!-- Bottom Column -->
       <div class="col-12 text-center mt-3 mt-lg-4 d-flex justify-content-center align-items-center gap-3 flex-wrap">
-        <button class="btn btn-primary btn-xl" type="submit" id="btn-submit-message"
+        <button v-if="tokenFromChild" class="btn btn-primary btn-xl" type="submit" id="btn-submit-message"
           :class="{ disabled: submitStatus === SubmitStatus.SENDING }">
           <i class="fa fa-envelope me-1" /> {{ data.getString('sendMessage') }}
         </button>
-        <Captcha></Captcha>
+        <!-- <span>{{ tokenFromChild }}...</span> -->
+        <Captcha v-model="tokenFromChild"></Captcha>
       </div>
     </div>
   </form>
@@ -66,6 +67,7 @@ const WEB3FORMS_ACCESS_KEY = "321d1380-d09b-468c-a898-a0ab1bdef7a8";
 const name = ref("")
 const email = ref("")
 const message = ref("")
+const tokenFromChild = ref("");
 
 /**
  * @enum
