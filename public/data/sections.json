@@ -85,6 +85,13 @@
       "component": "ContactSection",
       "jsonPath": "data/sections/contact.json",
       "faIcon": "fa-solid fa-pen-to-square"
+    },
+    {
+      "id": "review",
+      "categoryId": "contact_reviews",
+      "component": "TextSection",
+      "jsonPath": "data/sections/review.json",
+      "faIcon": "fa-solid fa-star"
     }
   ]
 }

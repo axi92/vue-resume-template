@@ -1,0 +1,12 @@
+{
+  "id": "review",
+  "locales": {
+    "en": {
+      "title": "<span class='text-primary'>Review</span> Me"
+    },
+    "cz": {
+      "title": "<span class='text-primary'>Review</span>"
+    }
+  },
+  "items": []
+}

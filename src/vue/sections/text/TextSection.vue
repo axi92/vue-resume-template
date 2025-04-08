@@ -8,12 +8,6 @@
     <!-- Info Items -->
     <!-- <InlineList class="info-list" :items="props.sectionData.content['items']['contactListItems']"/> -->
 
-    <!-- Description -->
-    <!-- <p class="cover-description lead text-normal fst-italic"
-           v-html="props.sectionData.content['locales']['bio']"/>
-        <p class=" text-normal mb-4 mb-md-5"
-           v-html="props.sectionData.content['locales']['author']"/> -->
-
     <!-- Paragraphs -->
     <!-- <p class="test-normal lead" v-html="props.sectionData.content['locales']['paragraph']"></p> -->
     <!-- Iterate over the array of paragraphs -->
@@ -86,6 +80,11 @@
       </p>
     </span>
 
+    <!-- Review -->
+    <span v-if="sectionData.content['id'] == 'review'">
+      <Review></Review>
+    </span>
+
   </SectionTemplate>
 </template>
 
@@ -95,6 +94,7 @@ import { computed } from "vue"
 import { useData } from "../../../composables/data.js"
 import { useNavigation } from "../../../composables/navigation.js"
 import Card from "../../widgets/Card.vue"
+import Review from "../../widgets/Review.vue"
 
 const data = useData()
 const navigation = useNavigation()
