@@ -63,7 +63,7 @@ import Captcha from "../../widgets/Captcha.vue"
 const data = useData()
 const layout = useLayout()
 const navigation = useNavigation()
-const WEB3FORMS_ACCESS_KEY = "321d1380-d09b-468c-a898-a0ab1bdef7a8";
+const WEB3FORMS_ACCESS_KEY = "fb5dbcfc-d470-4c41-bb51-4d677b4cf447";
 const name = ref("")
 const email = ref("")
 const message = ref("")
