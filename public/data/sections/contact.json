@@ -5,7 +5,7 @@
       "title": "<span class='text-primary'>Contact</span> Me",
       "description": "If you want to get in touch with me, I am here for you - please don't hesitate to contact me.",
       "subtitle": "Where to Find Me",
-      "subtitleDescription": "If you prefer, you can reach out to me through the following options:",
+      "subtitleDescription": "",
       "navigationDescription": [
         "At the corner of Červinkova and Vodova streets.",
         "By car:",
@@ -18,9 +18,9 @@
     },
     "cz": {
       "title": "<span class='text-primary'>Kontakt</span>",
-      "description": "",
+      "description": "Pokud se na mě budete chtít obrátit, jsem tu pro Vás - neváhejte mě kontaktovat.",
       "subtitle": "Kde mě najdete",
-      "subtitleDescription": "Pokud se na mě budete chtít obrátit, jsem tu pro Vás - neváhejte mě kontaktovat.",
+      "subtitleDescription": "",
       "navigationDescription": [
         "Na rohu ulic Červinkova a Vodova.",
         "Autem: ",
