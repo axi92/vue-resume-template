@@ -2,7 +2,7 @@
   "id": "services",
   "locales": {
     "en": {
-      "title": "<span class='text-primary'>Services</span>",
+      "title": "Services",
       "title_provide": "I provide:",
       "provide": [
         "Psychological counseling",
