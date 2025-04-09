@@ -3,24 +3,24 @@
   "locales": {
     "en": {
       "title": "<span class='text-primary'>Contact</span> Me",
-      "description": "Please don't hesitate to get in touch with me whenever you feel the need!",
-      "subtitle": "Or...",
+      "description": "If you want to get in touch with me, I am here for you - please don't hesitate to contact me.",
+      "subtitle": "Where to Find Me",
       "subtitleDescription": "If you prefer, you can reach out to me through the following options:",
       "navigationDescription": [
-        "An der Ecke der Straßen Cervinkova und Vodova.",
-        "Mit dem Auto:",
-        "Die Straße von Cervinkova ist eine Einbahnstraße mit einem Eingang von der Purkyova-Straße in Richtung Vodova-Straße.",
-        "Sie parken direkt vor dem Gebäude oder in der Vodova Straße.",
+        "At the corner of Červinkova and Vodova streets.",
+        "By car:",
+        " Červinkova Street is a one-way street with an entrance from Purkyňova Street heading towards Vodova Street.",
+        "You can park directly in front of the building or on Vodova Street.",
         "",
-        "Mit öffentlichen Verkehrsmitteln:",
-        "Die Straßenbahnlinie 12 - Haltestelle Cervinkova ist ca. 200 m entfernt."
+        "By public transport:",
+        "Tram line 12 - Červinkova stop is approximately 200 meters away."
       ]
     },
     "cz": {
       "title": "<span class='text-primary'>Kontakt</span>",
       "description": "",
-      "subtitle": "Or...",
-      "subtitleDescription": "Si prefieres, puedes ponerte en contacto conmigo a través de las siguientes opciones:",
+      "subtitle": "Kde mě najdete",
+      "subtitleDescription": "Pokud budete se na mě budete chtít obrátit, jsem tu pro vás - neváhejte mě kontaktovat.",
       "navigationDescription": [
         "Na rohu ulic Červinkova a Vodova.",
         "Autem: ",
