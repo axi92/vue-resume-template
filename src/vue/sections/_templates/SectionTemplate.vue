@@ -72,7 +72,8 @@ const sectionTitle = computed(() => {
         return props.sectionData.content['locales']['title']
     }
     else {
-        return data.getString(props.sectionData['id'])
+        // return data.getString(props.sectionData['id'])
+        return props.sectionData.content['locales']['title']
     }
 })
 </script>
