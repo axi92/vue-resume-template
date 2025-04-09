@@ -11,7 +11,7 @@
                 <!-- Nav Link -->
                 <li v-for="section in data.getSections()" :class="_getNavItemClassList(section)">
                     <button class="nav-link" @click="_onLinkClicked(section)">
-                        <i :class="section['faIcon']"/>
+                        <i class="me-1" :class="section['faIcon']"/>
                         <span>{{ data.getString(section['id']) }}</span>
                     </button>
                 </li>
@@ -136,7 +136,7 @@ li.nav-item {
         color: $light-1;
 
         i {
-            min-width: 35px;
+            min-width: 1.5em;
             color: $nav-item-grayed-out-color;
             transition: color 0.2s;
         }
