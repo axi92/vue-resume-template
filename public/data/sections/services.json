@@ -2,7 +2,7 @@
   "id": "services",
   "locales": {
     "en": {
-      "title": "Services",
+      "title": "<span class='text-primary'>Services</span>",
       "title_provide": "I provide:",
       "provide": [
         "Psychological counseling",
@@ -26,7 +26,7 @@
       ]
     },
     "cz": {
-      "title": "Co nabízím ",
+      "title": "Co <span class='text-primary'>nabízím</span>",
       "title_provide": "Poskytuji:",
       "provide": [
         "Psychologické poradenství",
